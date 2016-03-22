@@ -1,0 +1,10 @@
+.header{
+  background-image: url('images/gg1.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  width:600px;
+}
+.containter{
+  width:940px;
+  margin:0 auto;
+}
