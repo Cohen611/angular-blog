@@ -1,0 +1,11 @@
+<h1>{{ page.title }}</h1>
+<p>{{ page.content }}</p>
+<p class="background"><a class="btn btn-secondary btn-lg" href="/#/posts" role="button">Blog Post</a></p>
+<p class="background"><a class="btn btn-secondary btn-lg" href="/#/create" role="button">Create Post</a></p>
+<p class="background"><a class="btn btn-secondary btn-lg" href="/#/back" role="button">Back</a></p>
+<ul ng-repeat="tea in teas">
+  <li>{{tea.title}}</li><br>
+  <li>{{tea.text}}</li><br>
+  <li>{{tea.img}}</li><br>
+   <button class='btn btn-md btn-success' ng-click="deleteTea(tea)" name="button">Delete</button>
+</ul>
